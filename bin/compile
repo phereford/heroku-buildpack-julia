@@ -43,7 +43,7 @@ export PATH=./.apt/usr/bin:./julia/bin:$PATH
 export JULIA_LOAD_PATH="@:"
 echo $PATH
 echo $LD_LIBRARY_PATH
-echo $(cmake -version)
+# echo $(cmake -version)
 echo $(julia -v)
 
 echo " done"
