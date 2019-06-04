@@ -6,9 +6,11 @@ set -e
 
 mkdir .profile.d
 touch .profile.d/julia.sh
+PROFILE_PATH=".profile.d/julia.sh"
+
 
 set-env() {
-  echo "export $1=$2" >> .profile.d/julia.sh
+  echo "export $1=$2" >> $PROFILE_PATH
 }
 
 # parse args
